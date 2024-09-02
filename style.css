@@ -1,0 +1,74 @@
+.profile{
+    height: 100px;
+    border-radius: 50%;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #FF2E63, #EAEAEA, #08D9D6);
+    background-size: 180% 180%;
+    animation: gradient-animation 20s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+body{
+    background-color: #e4f9f5;
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+    background-color: #ff2e2e35;
+}
+
+#Third{
+    background-color: #f1d8ee3c;
+}
+
+#Fourth{
+    background-color: #a3d9ff31;
+}
+
+.skill-color{
+    background-color: rgba(99, 255, 255, 0.155);
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+
+.boxedit{
+    height: 8px;
+}
+
+.boxcol{
+    background-color: rgba(255, 0, 0, 0.032);
+}
+
+@media(max-width : 1360px){   
+    .test{
+        min-width: 250px;
+        height: 82px;
+    }
+}
+
+@media(max-width : 650px){   
+    .test2{
+        height: 63px;
+    }
+    .test3{
+        height: 63px;
+    }
+}
